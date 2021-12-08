@@ -1,0 +1,131 @@
+/* cart-items */
+    .cart-pagex{
+        margin: 80px auto;
+        padding:60px;
+        
+    }
+    .cart{
+        width: 100%;
+        border-collapse: collapse;
+        /* background-color: light-grey; */
+        
+        
+    }
+    .cart-info{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+
+    .marquee-text1 {
+        background-color: black;
+        padding-top: 10px;
+        height: 60px;
+        
+    }
+
+    
+    
+    th{
+        text-align: left;
+        padding: 5px;
+        color:#fff;
+        /* background: #c0392b; */
+        background: #e52d27;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        font-weight: normal;
+    }
+    td{
+        padding: 10px 5px;
+        
+       
+        
+    }
+    .total-price td{
+        background: #abbaab;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 4px;
+        border: 1px solid black;
+    }
+    td input{
+        width:50px;
+        height:30px;
+        padding:5px;
+        border: 2px solid black;
+    }
+    td a{
+        /* color:#c0392b; */
+        font-size:12px;
+        /* text-decoration: underline; */
+        
+    }
+    td img{
+        height:80px;
+        width:80px;
+        margin-right:10px;
+    }
+    .total-price{
+        display: flex;
+        justify-content: flex-end;
+        color: black;
+        /* background-image: url("/images/beats/Beats\ Ep\ Wired-1.png");
+         */
+         /* background-color: azure; */
+    
+        
+         
+        
+    }
+    .checkout{
+        display: flex;
+        justify-content: flex-end;
+       
+         
+        
+    }
+ 
+    .checkout td .cont-shop{
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    .total-price td .cont-shop:hover{
+       font-weight: bold;
+    }
+    .total-price td{
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 30px;
+    }
+    .total-price table{
+        /* border-top: 3px solid #c0392b; */
+        width:100%;
+        max-width: 400px;
+    }
+    .checkout table{
+        /* border-top: 1px solid #c0392b; */
+        border-width:50%;
+        max-width: 400px;
+    }
+    td:last-child{
+        text-align: right;
+        
+    }
+    th:last-child{
+        text-align: right;
+
+    }
+    
+ 
+    @media only screen and (max-width: 600px){
+        .btn-flat btn-hover{
+            padding:3px;
+            margin-left: 5px;
+        }
+       
+    }
+
+
+
+ 
